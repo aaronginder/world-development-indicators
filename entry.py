@@ -1,4 +1,4 @@
-from data.data_extractor import BigQueryDataExtractor
+from utils.data_extractor import BigQueryDataExtractor
 import timeit
 from config.conf import logger
 
