@@ -134,3 +134,7 @@ output/
 
 # vs code
 .vscode/
+
+.terraform
+*.tfstate*
+.idea*
