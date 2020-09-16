@@ -1,9 +1,0 @@
-steps:
-  - name: 'gcr.io/cloud-builders/docker'
-    args:
-      - 'build'
-      - 'eu.gcr.$PROJECT_ID/$REPO_NAME:$TAG_NAME'
-      - '--network=cloudbuild'
-      - '.'
-images: ['eu.gcr.io/$PROJECT_ID/$REPO_NAME:$TAG_NAME']
-timeout: 1200s
